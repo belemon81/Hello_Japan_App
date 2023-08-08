@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name"><font color="@color/black">Hello Japan</font></string>
+    <string name="hiragana">Hiragana</string>
+    <string name="katakana">Katakana</string>
+    <string name="a">a</string>
+    <string name="e">e</string>
+    <string name="i">i</string>
+    <string name="u">u</string>
+    <string name="o">o</string>
+    <string name="ka">ka</string>
+    <string name="ke">ke</string>
+    <string name="ki">ki</string>
+    <string name="ku">ku</string>
+    <string name="ko">ko</string>
+    <string name="sa">sa</string>
+    <string name="se">se</string>
+    <string name="shi">shi</string>
+    <string name="su">su</string>
+    <string name="so">so</string>
+    <string name="ta">ta</string>
+    <string name="te">te</string>
+    <string name="chi">chi</string>
+    <string name="tsu">tsu</string>
+    <string name="to">to</string>
+    <string name="na">na</string>
+    <string name="ne">ne</string>
+    <string name="ni">ni</string>
+    <string name="nu">nu</string>
+    <string name="no">no</string>
+    <string name="ha">ha</string>
+    <string name="he">he</string>
+    <string name="hi">hi</string>
+    <string name="fu">fu</string>
+    <string name="ho">ho</string>
+    <string name="ma">ma</string>
+    <string name="me">me</string>
+    <string name="mi">mi</string>
+    <string name="mu">mu</string>
+    <string name="mo">mo</string>
+    <string name="ya">ya</string>
+    <string name="yu">yu</string>
+    <string name="yo">yo</string>
+    <string name="ra">ra</string>
+    <string name="re">re</string>
+    <string name="ri">ri</string>
+    <string name="ru">ru</string>
+    <string name="ro">ro</string>
+    <string name="n">n</string>
+    <string name="wa">wa</string>
+    <string name="wo">wo</string>
+    <string name="empty">empty</string>
+
+    <string name="hiragana_switch">HIRAGANA</string>
+    <string name="katakana_switch">KATAKANA</string>
+</resources>

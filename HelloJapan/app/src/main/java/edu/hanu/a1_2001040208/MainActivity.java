@@ -69,20 +69,18 @@ public class MainActivity extends AppCompatActivity {
         });
 
         for (ImageButton charButton: allCharButtons) {
+            String contentDescription = charButton.getContentDescription().toString();
+            int viewId = getResources().getIdentifier(contentDescription,"raw",getPackageName());
+            charButton.setTag(viewId);
+
             charButton.setOnClickListener(view -> {
 //                int viewId = charButton.getId();
 //                String viewIdString = MainActivity.this.getResources().getResourceName(viewId);
 //                viewIdString = viewIdString.substring(viewIdString.lastIndexOf("/")+3);
 //                viewId = getResources().getIdentifier(viewIdString,"raw",getPackageName());
-
-//                String contentDescription = charButton.getContentDescription().toString();
-//                int viewId = getResources().getIdentifier(contentDescription,"raw",getPackageName());
-
                 charButton.animate().scaleXBy(-0.2f).scaleYBy(-0.2f).setDuration(100).withEndAction(() ->
                         charButton.animate().scaleXBy(0.2f).scaleYBy(0.2f).setDuration(100));
-                int viewId = charButton.getId();
-                mediaPlayer.reset();
-                mediaPlayer = MediaPlayer.create(MainActivity.this,viewId);
+                mediaPlayer = MediaPlayer.create(MainActivity.this, (int) charButton.getTag());
                 mediaPlayer.seekTo(0);
                 mediaPlayer.start();
             });
